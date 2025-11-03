@@ -1,21 +1,16 @@
 import {StyleSheet} from "react-native";
 
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 8,
-  },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
-  },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: "absolute",
+  container: {flex: 1, padding: 16},
+  title: {fontSize: 22, fontWeight: "bold", marginBottom: 10},
+  item: {fontSize: 18, paddingVertical: 8},
+  form: {marginTop: 20},
+  input: {
+    borderWidth: 1,
+    borderColor: "#ccc",
+    padding: 8,
+    marginVertical: 5,
+    borderRadius: 6,
   },
 });
 
