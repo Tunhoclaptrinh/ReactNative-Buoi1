@@ -1,21 +1,46 @@
 import {StyleSheet} from "react-native";
 
 const styles = StyleSheet.create({
-  titleContainer: {
-    flexDirection: "row",
+  container: {
+    flex: 1,
     alignItems: "center",
-    gap: 8,
+    justifyContent: "center",
+    backgroundColor: "#f2f2f2",
   },
-  stepContainer: {
-    gap: 8,
+  card: {
+    width: 300,
+    backgroundColor: "rgba(255, 255, 255, 1)",
+    borderRadius: 16,
+    padding: 20,
+    alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: {width: 0, height: 4},
+    shadowOpacity: 0.2,
+    shadowRadius: 6,
+    elevation: 6,
+  },
+  avatar: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    marginBottom: 12,
+  },
+  infoContainer: {
+    alignItems: "center",
+  },
+  name: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#333",
+  },
+  job: {
+    fontSize: 16,
+    color: "#666",
     marginBottom: 8,
   },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: "absolute",
+  contact: {
+    fontSize: 14,
+    color: "#444",
   },
 });
 
