@@ -1,7 +1,7 @@
 import {Image} from "expo-image";
 import {View, Text} from "react-native";
 import {ThemedView} from "@/components/themed-view";
-import styles from "./style";
+import styles from "../style";
 
 export default function HomeScreen() {
   return (
